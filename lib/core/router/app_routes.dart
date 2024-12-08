@@ -7,7 +7,7 @@ class AppRoutes {
   // Home section routes
   static const String page1 = '/page1';
   static const String page2 = '/page2';
-  static const String page3 = '/page3';
+  static const String page3 = '/page3/transit';
 
   // Feature section routes
   static const String search = '/search';
@@ -15,11 +15,6 @@ class AppRoutes {
 
   // Initial route
   static const String initial = page1;
-
-  // Route names (useful for named routes if needed)
-  static const String homeName = 'home';
-  static const String searchName = 'search';
-  static const String profileName = 'profile';
 
   // Add to app_routes.dart
   static const String login = '/login';
