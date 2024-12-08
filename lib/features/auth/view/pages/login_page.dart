@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:grouter/core/router/app_routes.dart';
 import 'package:grouter/core/service_locator.dart';
 import 'package:grouter/features/auth/services/auth_service.dart';
 
@@ -60,7 +61,7 @@ class _LoginPageState extends State<LoginPage> {
 
   void _navigateToHome() {
     // Use GoRouter.of to get the router without direct context usage
-    GoRouter.of(context).go('/home');
+    GoRouter.of(context).go(AppRoutes.initial);
   }
 
   @override
